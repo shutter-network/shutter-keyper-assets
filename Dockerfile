@@ -14,6 +14,7 @@ COPY $TARGET/genesis/config/genesis.json /assets-source/
 COPY $TARGET/variables.env /assets-source/
 
 RUN echo "$TARGET-$TAG" > /assets-source/version
+RUN echo "_ASSETS_VERSION=$TARGET-$TAG" >> /assets-source/variables.env
 
 VOLUME /genesis
 COPY $TARGET/genesis /genesis

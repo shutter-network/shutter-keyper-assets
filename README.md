@@ -9,6 +9,8 @@ genesis file (for example `shutter-gnosis-1000`).
 Place an appropriate shuttermint genesis folder in the `genesis` directory 
 and insert any required variables into `variables.env`.
 
+`rolling-shutter chain init --blocktime 10 --genesis-keyper 0x440Dc6F164e9241F04d282215ceF2780cd0B755e --role validator --root genesis`
+
 Then run `./build.sh <target-dir> <tag>` to build the docker image.
 
 The default image base name is `ghcr.io/shutter-network/assets`.
