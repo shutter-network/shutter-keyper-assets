@@ -1,0 +1,43 @@
+{
+  "genesis_time": "2024-12-06T11:59:51.288346Z",
+  "chain_id": "shutter-service-1000",
+  "initial_height": "0",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {
+      "app": "0"
+    }
+  },
+  "validators": [
+    {
+      "address": "AD3C9EDC94CD6659BF8D7A9634482F1ED7489379",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "KXxzWE5WNzYB77P2eA3x2D/QmZSwwxi1hDW1rc6Ufm4="
+      },
+      "power": "10",
+      "name": ""
+    }
+  ],
+  "app_hash": "",
+  "app_state": {
+    "keypers": [
+      "0x440Dc6F164e9241F04d282215ceF2780cd0B755e"
+    ],
+    "threshold": "1",
+    "initialEon": "0"
+  }
+}
